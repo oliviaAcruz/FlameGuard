@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlameGuard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <nav> <!-- navigation; needs to remain consistent-->
+        <div class="logo">
+            <a href="/"><img src="./assets/logo.svg" alt="logo"/></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">FlameGuard</a> <a href="mission.html">Mission</a> <a href="team.html">Meet the team!</a>
+        </div>
+        </nav>
+
+    <div class="center-column">
+        <h1>FlameGuard</h1>
+    </div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webcam Access</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f0f0f0;
+            }
+            video {
+                margin-top: 20px;
+                border: 2px solid #333;
+                border-radius: 10px;
+                width: 80%;
+                max-width: 640px;
+                height: auto;
+            }
+            #controls {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Webcam Viewer</h1>
+        <video id="webcam" autoplay playsinline></video>
+        <div id="controls">
+            <button onclick="stopWebcam()">Stop Webcam</button>
+        </div>
+        <script src="webcam.js"></script>
+
+</body>
+</html>
